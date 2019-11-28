@@ -1,3 +1,8 @@
+drop database if exists task7;
+create database task7;
+
+use task7;
+
 drop table if exists users;
 create table users(
 	id bigint auto_increment not null primary key,
